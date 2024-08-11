@@ -1,0 +1,45 @@
+.skill-bar {
+    position: relative;
+    margin-bottom: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 30px;
+  }
+  
+  .skill-title {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #333;
+    z-index: 1;
+  }
+  
+  .skill-bar-fill {
+    height: 100%;
+    background-color: #ff6f61;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    position: relative;
+  }
+  
+  .skill-percentage {
+    font-size: 1rem;
+    color: #fff;
+    z-index: 2;
+  }
+
+  .skill-description {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  

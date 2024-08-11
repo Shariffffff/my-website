@@ -1,0 +1,123 @@
+.home {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(120deg, #f0f4f8 0%, #d9e4f5 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: fadeIn 2s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .home .intro {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .home h1 {
+    font-size: 3rem;
+    color: #333;
+    animation: slideIn 1s ease-in-out forwards;
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  
+  @keyframes slideIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .home p {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #666;
+    animation: slideIn 1.5s ease-in-out forwards;
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  
+  .cta-button {
+    margin-top: 30px;
+    background-color: #ff6f61;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: pulse 2s infinite;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e85a50;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  
+  .bitmoji {
+    width: 150px; /* Adjust the size to fit well */
+    height: auto;
+    margin-bottom: 20px;
+    animation: bounceIn 1.5s ease-in-out;
+  }
+  
+  @keyframes bounceIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.3) translateY(-200px);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.05) translateY(0);
+    }
+    70% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .background-element {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(255,111,97,0.4) 0%, rgba(255,111,97,0) 70%);
+    top: -50px;
+    right: -100px;
+    border-radius: 50%;
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
