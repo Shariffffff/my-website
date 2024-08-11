@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-website/static/css/main.56ec5985.css",
+    "main.js": "/my-website/static/js/main.001ee498.js",
+    "static/js/453.acca0757.chunk.js": "/my-website/static/js/453.acca0757.chunk.js",
+    "static/media/bitmoji.png": "/my-website/static/media/bitmoji.3b9e62f9bdf3c9a59d7c.png",
+    "index.html": "/my-website/index.html",
+    "main.56ec5985.css.map": "/my-website/static/css/main.56ec5985.css.map",
+    "main.001ee498.js.map": "/my-website/static/js/main.001ee498.js.map",
+    "453.acca0757.chunk.js.map": "/my-website/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56ec5985.css",
+    "static/js/main.001ee498.js"
+  ]
+}
