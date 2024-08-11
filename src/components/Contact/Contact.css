@@ -1,25 +1,57 @@
 .contact {
     padding: 50px;
     background-color: #ffffff;
-  }
-  
-  .contact h2 {
+}
+
+.contact h2 {
     font-size: 2.5rem;
     color: #333;
-  }
-  
-  .contact p {
+    text-align: center;
+}
+
+.contact p {
     margin-top: 20px;
     font-size: 1.2rem;
     color: #666;
-  }
-  
-  .contact a {
+    text-align: center;
+}
+
+.contact-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-links li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.contact-links a {
     color: #007BFF;
     text-decoration: none;
-  }
-  
-  .contact a:hover {
+}
+
+.contact-links a:hover {
     text-decoration: underline;
-  }
-  
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .contact {
+        padding: 30px 15px;
+    }
+
+    .contact h2 {
+        font-size: 2rem;
+    }
+
+    .contact p {
+        font-size: 1rem;
+    }
+
+    .contact-links li {
+        font-size: 1rem;
+    }
+}

@@ -5,9 +5,9 @@
     border-radius: 10px;
     overflow: hidden;
     height: 30px;
-  }
-  
-  .skill-title {
+}
+
+.skill-title {
     position: absolute;
     left: 10px;
     top: 50%;
@@ -15,9 +15,9 @@
     font-size: 1rem;
     color: #333;
     z-index: 1;
-  }
-  
-  .skill-bar-fill {
+}
+
+.skill-bar-fill {
     height: 100%;
     background-color: #ff6f61;
     border-radius: 10px;
@@ -26,20 +26,38 @@
     justify-content: flex-end;
     padding-right: 10px;
     position: relative;
-  }
-  
-  .skill-percentage {
+}
+
+.skill-percentage {
     font-size: 1rem;
     color: #fff;
     z-index: 2;
-  }
+}
 
-  .skill-description {
+.skill-description {
     margin-top: 30px;
     font-size: 1rem;
     color: #666;
     text-align: center;
     font-style: italic;
-  }
-  
-  
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .skill-bar {
+        height: 20px;
+    }
+
+    .skill-title {
+        font-size: 0.9rem;
+    }
+
+    .skill-percentage {
+        font-size: 0.9rem;
+    }
+
+    .skill-description {
+        font-size: 0.9rem;
+        margin-top: 15px;
+    }
+}

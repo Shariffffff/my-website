@@ -1,7 +1,6 @@
 import React from 'react';
 import './Education.css';
 
-
 const Education = () => {
   return (
     <div className="education container">
@@ -26,11 +25,11 @@ const Education = () => {
         {/* A Levels */}
         <div className="timeline-item" data-aos="fade-right">
           <div className="timeline-content">
-            <h3>A Levels, [Regent Sixth Form]</h3>
+            <h3>A Levels, Regent Sixth Form</h3>
             <p>Sept 2017 – June 2019</p>
             <ul>
               <li>Business (A)</li>
-              <li>Pyshcology (B)</li>
+              <li>Psychology (B)</li>
               <li>English Literature (C)</li>
             </ul>
           </div>
@@ -39,7 +38,7 @@ const Education = () => {
         {/* GCSEs */}
         <div className="timeline-item" data-aos="fade-right">
           <div className="timeline-content">
-            <h3>GCSEs, [Regent Sixth Form]</h3>
+            <h3>GCSEs, Regent Sixth Form</h3>
             <p>Sept 2012 – June 2017</p>
             <ul>
               <li>Mathematics (6)</li>
